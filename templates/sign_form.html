@@ -12,33 +12,19 @@
     <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon"/>
     <link rel=stylesheet type=text/css href="{{ url_for('static', filename='mfglabs_iconset.css') }}">
 	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
 
 <div class="parallax-background">
   <div class="intro-text">
-    <span style="font-family:Cookie ; font-size:2em">Welcome to the Basil Database</span>
-    <p><i class="fi-arrow-down"></i></p>
+    <span style="font-family:Cookie ; font-size:2em">Welcome to the Basil Database !</span>
+	<p> <i class="fa fa-arrow-down"></i> </p>
   </div>
 </div>
 
 <div class="parallax-content">
 
-
-<div class="row">
-<h1 style="font-family:Cookie ; font-size:2em ; text-align:center"> &#8220; contribute to the world's fastest growing basil resource &#8221; </h1>
-
-
-<form action='/submit' method='post'>
-  <label for='name'>Name</label>
-  <input name='name' type='text' placeholder="e.g. Basil Ahmad"></input>
-
-  <label for='message'>Your Nick-Name</label>
-  <input name='message' type='text' placeholder="Razzle Dazzle Basil"></input>
-
-  <input type='submit' class="success large radius button"></input>
-</form>
-</div>
 
 <br>
 <br>
@@ -52,10 +38,10 @@
 		</div>
 		<div class="small-11 large-11 columns testimonial">
 			<div class="quote">
-				<p>This Resource has changed my life. I don't know how i could get on if i didn' have this in my life. My thanks to the developers and their families.</p>
+				<p>This Resource has changed my life. I don't know if I could go on if I didn't have this in my life. My thanks to the developers and their families. </p>
 			</div>
 			<div class="student">
-				<div class="photo"> </div>
+				<!-- <div class="photo"> </div> -->
 				<p>Benjamin Mather</p>
 				<p>Baritone, Rutgers University Glee Club</p>
 			</div>
@@ -67,10 +53,96 @@
 
 
 
+
+
+
+<div class="row">
+
+<div class="large-4 columns">
+<div class="card">
+	<div class="container">
+		<div class="front">
+			<img <img src="/static/rsz_basil1.jpg" />
+		</div>
+
+		<div class="back">
+			<h5>Always Doing Math.</h5>
+			<p> He takes so many classes he doesn't even know what to do with himself anymore.  </p>
+			<p> He's taking WAYY too many classes next semester instead of just going for a regular degree like te rest of us.</p>
+		</div>
+	</div>
+</div>  
+  
+</div> <!--closer for large 4  content --> 
+
+
+
+<div class="large-4 columns">    <!-- Second Card -->
+<div class="card">
+	<div class="container">
+		<div class="front">
+			<img src="/static/rsz_basil2.jpg" />
+		</div>
+
+		<div class="back">
+			<h5>He literally NEVER knows his major.</h5>
+			<p>This is the crux of the basil, he has never known what he wants to do with his life.</p>
+    		<p>He is constantly reminding us of how much he DOESN'T know what he wants</p>
+			
+			<br> 
+			<br>
+			
+			<p>He's kind of annoying about it.</p>
+
+		</div>
+	</div>
+</div>  
+  
+</div> <!--closer for large 4  content --> 
+
+
+
+
+<div class="large-4 columns">  <!-- Third Card -->
+<div class="card">
+	<div class="container">
+		<div class="front">
+			<img src="/static/rsz_basil3.jpg" />
+		</div>
+
+		<div class="back">
+			<h5>This is a card.</h5>
+			<p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+			<p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+			<p>This card shows some content on the front and some on the back, and can be flipped by hovering on a desktop, or by swiping across on a touch device.</p>
+			<p>The back of the card is intentionally long, so that we can show both an example where the card is constrained to a square and where it is as long as the content on either side requires.</p>
+		</div>
+	</div>
+</div>  
+  
+</div> <!--closer for large 4  content --> 
+
+</div> <!--closer for row content --> 
+
+<br>
+<br>
+
+<div class="row text-center">
+<h1 style="font-family:Cookie ; font-size:2em ; text-align:center"> &#8220; Contribute to the world's fastest growing Basil resource &#8221; </h1>
+
+<form action='/submit' method='post'>
+  <label for='name'>Name</label>
+  <input name='name' type='text' placeholder="e.g. Basil Ahmad"></input>
+  <label for='message'>Your Nick-Name For Basil</label>
+  <input name='message' type='text' placeholder="Razzle Dazzle Basil"></input>
+
+  <input type='submit' class="success large radius button"></input>
+</form>
+</div>
+
+
 </div>    <!-- closer for parallax content -->          
         
-
-
 
 </body> 
 </html>
