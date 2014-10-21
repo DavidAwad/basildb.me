@@ -1,4 +1,23 @@
-<h1>Guest Book</h1>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Ultimate Basil Resource</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='stylesheet.css') }}">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='foundation.css') }}">
+    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon"/>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='mfglabs_iconset.css') }}">
+	<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+<h1>The Big List</h1>
 
 {% for signature in signatures %}
 
@@ -6,4 +25,27 @@
 <p>{{ signature['message'] }}</p>
 <hr>
 
+{% endfor %} 
+
+
+
+
+<!--
+<table>
+  <caption>Basil NickNames</caption>
+  <tr>
+    <th id="Name">Author</th>
+    <th id="Nick-Name">Nick Name</th>
+  </tr>
+{% for signature in signatures %}
+  <tr>
+    <th id="name" headers="n_name"> {{ signature['name'] }}  </th>
+    <td headers="their name"> {{ signature['message'] }}     </td>
+
+  </tr>
+
 {% endfor %}
+</table>  -->
+
+</body>
+</html>
