@@ -17,20 +17,6 @@
 <body>
 
 
-<h1>The Big List</h1>
-
-{% for signature in signatures %}
-
-<h2>{{ signature['name'] }}</h2>
-<p>{{ signature['message'] }}</p>
-<hr>
-
-{% endfor %} 
-
-
-
-
-<!--
 <table>
   <caption>Basil NickNames</caption>
   <tr>
@@ -38,14 +24,16 @@
     <th id="Nick-Name">Nick Name</th>
   </tr>
 {% for signature in signatures %}
+
   <tr>
     <th id="name" headers="n_name"> {{ signature['name'] }}  </th>
     <td headers="their name"> {{ signature['message'] }}     </td>
-
   </tr>
 
 {% endfor %}
-</table>  -->
+
+</table> 
+
 
 </body>
-</html>
+</html> 
