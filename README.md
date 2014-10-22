@@ -4,48 +4,13 @@ A guest book is a simple app that allows a user to leave their name and a messag
 
 This app is ment to be an example in building a simple [Flask](http://flask.pocoo.org/) app with GETs, POSTs, and inserting and reading from an SQL database using [dataset](https://dataset.readthedocs.org/en/latest/).
 
-## Get your PIP (your dependency manager)
+# Basildb.me 
 
-### If you have a mac
+This is a flask web app that takes all of the nicknames we can come up with for my friend Basil Ahmad. 
 
-_if you have easy_install already, just skip to step 3, you can test by typing ```which easy_install``` in your terminal_
+It currently works and I'll be hosting it on digitalocean in the near future. 
 
-1. Download the distribute setup script to get easy_install
-```
-http://python-distribute.org/distribute_setup.py
-```
-
-2. Run the script to install easy_install (do this in the terminal)
-```
-python distribute_setup.py
-```
-
-3. easy_install pip (do this in the terminal)
-```
-easy_install pip
-```
-
-### If you're on Windows
-
-1. Install pip-Win
-```
-https://sites.google.com/site/pydatalog/python/pip-for-windows
-```
-
-### If you're on Ubuntu
-
-1. Install with Apt (in terminal)
-```
-sudo apt-get install python-pip
-```
-
-## Install Dependencies
-
-1. In your terminal, pip install flask and dataset
-```
-pip install flask
-pip install dataset
-```
+Please enjoy the wonderful UX/UI. (I'm in love with it!)
 
 ## Run the server
 
