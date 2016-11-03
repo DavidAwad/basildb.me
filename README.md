@@ -24,3 +24,4 @@ python app.py
 ```
 
 2. Access app from localhost:5000
+;
