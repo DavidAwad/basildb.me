@@ -35,5 +35,5 @@ def submit():
 
 app.run(
         debug=True,
-        port=os.getenv('PORT', 5000)
+        port=int(os.getenv('PORT', 5000))
         )
