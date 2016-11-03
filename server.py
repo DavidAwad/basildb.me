@@ -4,6 +4,7 @@ from flask import render_template
 from flask import redirect
 from flask import url_for
 import dataset
+import os
 
 app = Flask(__name__)
 
@@ -32,4 +33,7 @@ def submit():
     table.insert(signature)
     return redirect(url_for('guest_book'))
 
-app.run(debug=True)
+app.run(
+        debug=True,
+        port=os.getenv('PORT', 5000)
+        )
