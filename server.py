@@ -33,6 +33,9 @@ def submit():
     table.insert(signature)
     return redirect(url_for('guest_book'))
 
+
+print(os.environ)
+
 app.run(
         port=int(os.getenv('PORT', 5000))
         )
