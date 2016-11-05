@@ -34,6 +34,5 @@ def submit():
     return redirect(url_for('guest_book'))
 
 app.run(
-        debug=True,
         port=int(os.getenv('PORT', 5000))
         )
