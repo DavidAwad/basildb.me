@@ -1,4 +1,0 @@
-
-This is the address of the server for this web app!
-
-http://104.131.187.117/
